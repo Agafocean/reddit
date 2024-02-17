@@ -1,0 +1,109 @@
+.s12 {
+    font-size: 12px;
+    line-height: 14px;
+}
+
+.s14 {
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.s16 {
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.black {
+    color: var(--black);
+}
+
+.orange {
+    color: var(--orange);
+}
+
+.green {
+    color: var(--green);
+}
+
+.white {
+    color: var(--white);
+}
+
+.greyF4 {
+    color: var(--greyF4);
+}
+
+.greyF3 {
+    color: var(--greyF3);
+}
+
+.greyD9 {
+    color: var(--greyD9);
+}
+
+.greyC4 {
+    color: var(--greyC4);
+}
+
+.grey99 {
+    color: var(--grey99);
+}
+
+.grey66 {
+    color: var(--grey66);
+}
+
+@media all and (min-width: 320px) and (max-width: 1023px) {
+    .m12 {
+        font-size: 12px;
+        line-height: 14px;
+    }
+
+    .m14 {
+        font-size: 14px;
+        line-height: 17px;
+    }
+
+    .m16 {
+        font-size: 16px;
+        line-height: 19px;
+    }
+}
+
+    @media all and (min-width: 1024px) and (max-width: 1539px) {
+        .t12 {
+            font-size: 12px;
+            line-height: 14px;
+        }
+    
+        .t14 {
+            font-size: 14px;
+            line-height: 17px;
+        }
+    
+        .t16 {
+            font-size: 16px;
+            line-height: 19px;
+        }    
+}
+
+@media all and (min-width: 1540px) {
+    .d12 {
+        font-size: 12px;
+        line-height: 14px;
+    }
+
+    .d14 {
+        font-size: 14px;
+        line-height: 17px;
+    }
+
+    .d16 {
+        font-size: 16px;
+        line-height: 19px;
+    }    
+}
