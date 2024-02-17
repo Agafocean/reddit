@@ -7,7 +7,7 @@
         "prod": "cross-env NODE_ENV=production webpack --mode production",
         "ndev": "cross-env NODE_ENV=development webpack --mode development",
         "start": "cross-env NODE_ENV=development webpack-dev-server",
-        "dev": "cross-env NODE_ENV=development CLIENT_ID=z8zB9dock7GgrEJe6Dbq-w node ./bin/dev.js",
+        "dev": "cross-env NODE_ENV=development CLIENT_ID=7R23OczqsJYAo4tovu8AcQ node ./bin/dev.js",
         "stop": "taskkill -f -im node.exe",
         "test": "jest"
     },
