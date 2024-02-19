@@ -23,7 +23,7 @@ export function UserBlock({ avatarSrc, username, loading }: IUserBlockProps) {
             <div className={styles.username}>
                <Break size={10} />
                { loading ? (<Text size={20} color={EColor.grey99}>Loading...</Text>)
-                  : (<Text size={20} color={username ? EColor.black : EColor.grey99}>{username || 'Аноним'}</Text>)
+                  : (<Text size={20} color={username ? EColor.black : EColor.grey99}>{username || 'Log in'}</Text>)
                }
             </div>
          </div>

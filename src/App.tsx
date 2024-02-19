@@ -5,8 +5,6 @@ import { CardsList } from './shared/CardsList/CardsList';
 import { Content } from './shared/Content/Content';
 import { Header } from './shared/Header/Header';
 import { Layout } from './shared/Layout/Layout';  
-//import { PostContextProvider } from './shared/Context/postContext';
-//import { PostCommentsContextProvider } from './shared/Context/postCommentsContext';
 import { applyMiddleware, createStore } from 'redux';
 import { Provider } from 'react-redux';
 import { composeWithDevTools } from 'redux-devtools-extension';

@@ -41,26 +41,26 @@ export function Dropdown({ button, isOpen, onOpen = NOOP, onClose = NOOP, param 
 
     const LIST = [
         {
-            As: 'li' as const, className: 'menuItem', text: 'Комментарии',
+            As: 'li' as const, className: 'menuItem', text: 'Comments',
             img: menuImg1, onClick: NOOP
         },
         {
-            As: 'li' as const, className: 'menuItem', text: 'Поделиться',
+            As: 'li' as const, className: 'menuItem', text: 'Share',
             img: menuImg2, onClick: NOOP
         },
         {
-            As: 'li' as const, className: 'menuItem', text: 'Скрыть',
+            As: 'li' as const, className: 'menuItem', text: 'Hide',
             img: menuImg3, onClick: NOOP
         },
         {
-            As: 'li' as const, className: 'menuItem', text: 'Сохранить',
+            As: 'li' as const, className: 'menuItem', text: 'Save',
             img: menuImg4, onClick: NOOP
         },
         {
-            As: 'li' as const, className: 'menuItem', text: 'Пожаловаться',
+            As: 'li' as const, className: 'menuItem', text: 'Complain',
             img: menuImg5, onClick: NOOP
         },
-        { As: 'li' as const, className: 'menuItem', text: 'Закрыть', onClick: NOOP }
+        { As: 'li' as const, className: 'menuItem', text: 'Close', onClick: NOOP }
     ].map(generateId);
     LIST.map((el) => el.onClick = () => console.log(el.id));
     LIST[0].onClick = () => {
