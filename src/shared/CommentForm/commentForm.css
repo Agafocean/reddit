@@ -23,9 +23,9 @@
 }
 
 .button {
-  width: 220px;
-  height: 50px;
-  background: #CC6633;
+  width: 150px;
+  height: 30px;
+  background: lightgreen;
   border-radius: 0px 0px 3px 0px;
   align-self: flex-end;
   font-family: Roboto;
