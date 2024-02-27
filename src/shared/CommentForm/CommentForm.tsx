@@ -25,7 +25,7 @@ export function CommentForm({ value, onChange }: Props) {
             }}
 
             onSubmit={(values) => {
-                alert(`Форма отправлена ${values.comment}`);
+                alert(`Comment sent ${values.comment}`);
             }}
         >
             {({ errors, touched, setFieldValue }) => (
@@ -39,7 +39,7 @@ export function CommentForm({ value, onChange }: Props) {
                         aria-invalid={errors.comment ? 'true' : undefined} />
                     {errors.comment && touched.comment && <div>{errors.comment}</div>}
 
-                    <button className={styles.button} disabled={!!errors.comment} type="submit">Комментировать</button>
+                    <button className={styles.button} disabled={!!errors.comment} type="submit">Send</button>
                 </Form>
             )}
         </Formik>
