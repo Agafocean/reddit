@@ -23,8 +23,8 @@
 }
 
 .button {
-  width: 150px;
-  height: 30px;
+  width: 100px;
+  height: 20px;
   background: lightgreen;
   border-radius: 0px 0px 3px 0px;
   align-self: flex-end;
@@ -34,7 +34,7 @@
   font-size: 14px;
   line-height: 16px;
   text-align: center;
-  color: #FFFFFF;
+  color: #000000;
 }
 
 .button:disabled {
