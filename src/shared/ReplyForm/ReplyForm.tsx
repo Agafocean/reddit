@@ -20,7 +20,7 @@ export function ReplyForm(props: IName) {
 
     function handleSubmit(event: FormEvent) {
         event.preventDefault();
-        alert(`Форма отправлена ${value}`);
+        alert(`Comment sent ${value}`);
     }
     return (
         <form className={styles.form} onSubmit={handleSubmit}>
